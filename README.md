@@ -2,10 +2,9 @@
 
 Download this project and run the commands below to process with excel to json.
 
-## Code scaffolding
+## To Run this app follow the commands. 
 
---- 
-Run $npm install
+$npm install
 ---
 $npm start --host 0.0.0.0 --port 8090
 
