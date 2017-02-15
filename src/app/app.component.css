@@ -1,0 +1,6 @@
+.result-container{
+        border: 1px solid gray;
+    overflow: auto;
+    border-radius: 4px;
+    padding: 10px
+}

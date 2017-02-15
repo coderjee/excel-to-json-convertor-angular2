@@ -1,3 +1,17 @@
 <h1>
-  {{title}}
+  Excel to JSON convertor
 </h1>
+
+<div>
+  <label for="">Select an .xlsx file to get json</label>
+  <br>
+  <input type="file" (change)="handleFile($event)" />
+</div>
+
+<div class="result-container" *ngIf="result && result.length>0">
+  <h2>
+    Result :
+   <br>
+  </h2>
+  {{result}}
+</div>
